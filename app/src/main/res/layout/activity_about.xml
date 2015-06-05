@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.gamepr0.testencrypter.AboutActivity"
+    android:id="@+id/activity_about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ABOUT"
+        android:id="@+id/tv_about_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app is a protype of a Multi-algo File Encrypter for Adnroid Platforms"
+        android:id="@+id/tv_about_details"
+        android:layout_below="@+id/tv_about_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Created By:"
+        android:id="@+id/tv_about_cby"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="24dp" />
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parichit Kotawala"
+        android:id="@+id/tv_about_p"
+        android:layout_marginTop="30dp"
+        android:textSize="22dp"
+        android:textStyle="bold|italic"
+        android:layout_below="@+id/tv_about_cby"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shivang Kumar"
+        android:id="@+id/textView"
+        android:layout_below="@+id/tv_about_p"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold|italic"
+        android:textSize="22dp" />
+
+    <TextView
+        android:paddingTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under the guidance of"
+        android:id="@+id/tv_underg"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textStyle="italic"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mr. Harish Sahu"
+        android:id="@+id/tv_harish"
+        android:layout_below="@+id/tv_underg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="22dp"
+        android:textStyle="bold|italic"
+        android:gravity="center" />
+
+</RelativeLayout>
